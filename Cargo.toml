@@ -14,6 +14,7 @@ serde = "1.0"
 
 [dependencies.bevy]
 version = "0.9"
+path = "../bevy"
 # git = "https://github.com/bevyengine/bevy"
 # rev = "f3de12bc"
 # branch = "main"
@@ -21,6 +22,7 @@ default-features = false
 
 [dev-dependencies.bevy]
 version = "0.9"
+path = "../bevy"
 # git = "https://github.com/bevyengine/bevy"
 # rev = "f3de12bc"
 # branch = "main"
@@ -29,6 +31,7 @@ default-features = false
 
 [target.'cfg(target_os = "linux")'.dev-dependencies.bevy]
 version = "0.9"
+path = "../bevy"
 # git = "https://github.com/bevyengine/bevy"
 # rev = "f3de12bc"
 # branch = "main"
